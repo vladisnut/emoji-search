@@ -1,0 +1,13 @@
+@import "../../vars.css";
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1;
+    justify-content: space-evenly;
+}
+
+.search-results::after {
+    content: "";
+    flex: auto;
+}

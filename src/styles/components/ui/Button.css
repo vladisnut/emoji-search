@@ -1,0 +1,16 @@
+@import "../../vars.css";
+
+
+.my-button {
+    padding: 16px 24px;
+    border: medium solid var(--color-select);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-small);
+    margin: 4px;
+    background-color: var(--color-background);
+}
+.my-button:hover {
+    background-color: var(--color-select);
+    border: medium solid var(--color-secondary-light);
+    color: var(--color-background);
+}

@@ -1,0 +1,12 @@
+body {
+    --color-select: red;
+    --color-secondary: gray;
+    --color-secondary-light: lightgray;
+    --color-background: white;
+
+    --font-size-small: 1.1rem;
+    --font-size-normal: 1.4rem;
+    --font-size-medium: 2.0rem;
+
+    --border-radius: 8px;
+}

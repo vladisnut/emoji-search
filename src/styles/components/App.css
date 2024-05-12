@@ -1,0 +1,20 @@
+@import "../vars.css";
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.main {
+    margin: 20px;
+}
+
+.content {
+    padding: 0.5rem;
+}
+
+.snackbar-close-btn {
+    cursor: pointer;
+}

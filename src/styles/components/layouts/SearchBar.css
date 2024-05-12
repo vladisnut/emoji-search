@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+.search-bar {
+    margin-top: 20px;
+}
+.search-bar * {
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-input {
+    width: 600px;
+    font-size: var(--font-size-normal);
+    padding: 8px;
+    outline: none;
+    background-color: transparent;
+    border: medium solid var(--color-secondary-light);
+    border-radius: var(--border-radius);
+}
+.search-input:focus {
+    border: medium solid var(--color-select);
+}
+
+.result-statuses {
+    font-size: var(--font-size-small);
+    color: var(--color-secondary);
+    text-align: center;
+    margin: 4px 0;
+}
+
+.tip {
+    font-size: var(--font-size-small);
+    line-height: 1;
+    margin: 0.2rem 0.4rem 0.4rem 0;
+}
+
+.code-type-radio {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.2rem;
+}

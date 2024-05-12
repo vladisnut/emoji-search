@@ -1,0 +1,8 @@
+@import "../../vars.css";
+
+.loading {
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-normal);
+    color: var(--color-secondary);
+}
